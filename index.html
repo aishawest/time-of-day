@@ -47,7 +47,7 @@
 			each of the following times of day</p>
 	  <img id= "my-pic" src="http://dummyimage.com/300x400" alt="Time of Day Image" class="flexible">
      <footer>
-      <p><small>&copy; 2022 by 
+		<p><small>&copy; 2022-<span id="my-copyright">2023</span>
           Aisha Mohamud, All Rights Reserved ~ 
           <a id="html-checker" href="#" target="_blank">Check HTML</a> ~ 
           <a id="css-checker" href="#" target="_blank">Check CSS</a></small>
@@ -104,6 +104,8 @@
 	document.querySelector("html").style.backgroundColor = myColor
 
 	document.getElementById("my-pic").src = myPic
+
+    document.getElementById("my-copyright").innerHTML = myYear;
 
 
 
